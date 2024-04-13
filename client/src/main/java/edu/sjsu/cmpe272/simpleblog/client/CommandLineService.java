@@ -64,7 +64,7 @@ public class CommandLineService {
 
             String userJson = mapper.writeValueAsString(userAPI);
 
-            String result = String.valueOf(postAPI("https://sivakumarreddy6758.ignorelist.com/user/create",userJson).block());
+            String result = String.valueOf(postAPI("https://charan0512.crabdance.com/user/create",userJson).block());
             System.out.println(result);
             return 667;
         }
@@ -96,7 +96,7 @@ public class CommandLineService {
 
             String userJson = mapper.writeValueAsString(postAPI);
 
-            String result = String.valueOf(postAPI("https://sivakumarreddy6758.ignorelist.com/messages/create",userJson).block());
+            String result = String.valueOf(postAPI("https://charan0512.crabdance.com/messages/create",userJson).block());
             System.out.println(result);
 
             return 667; // Status code placeholder
